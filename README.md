@@ -8,7 +8,7 @@
 
 上传解题方案到对应语言的路径下。 例如：**题目/js-solutions/** or **题目/java-solutions/**
 
-文件命名格式为 **ans-by-名字.文件类型后缀**。 例如： **Ans_by_Oven.js** or **Ans_by_alex.java**
+文件命名格式为 **ans-by-名字.文件类型后缀**。 例如： **Ans_by_Oven.js** or **Ans_by_Alex.java**
 
 ## 项目介绍
 
