@@ -2,7 +2,7 @@
 
 ## 本周题目
 
-455 分发饼干 assign-cookies
+842. 将数组拆分成斐波那契序列 - Split Array into Fibonacci Sequence
 
 ## 怎样贡献代码
 
