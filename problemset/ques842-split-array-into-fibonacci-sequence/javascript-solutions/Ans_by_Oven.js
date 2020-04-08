@@ -53,6 +53,7 @@ let splitIntoFibonacci = (S) => {
   let ans = [];
   for (let i = 1; i < S.length / 2; i++) {
     const num = Number(S.slice(0, i));
+
     if (!isLegalNumber(num, i)) break;
 
     ans = backtracking(num, S.slice(i, S.length));
