@@ -6,6 +6,7 @@
  */
 let splitIntoFibonacci = (S) => {
   let len = S.length;
+  let ans = [];
   let isLegalNumber = (num, len) => {
     return String(num).length === len && num < 2 ** 31;
   }
@@ -50,7 +51,6 @@ let splitIntoFibonacci = (S) => {
     return [];
   }
 
-  let ans = [];
   for (let i = 1; i < S.length / 2; i++) {
     const num = Number(S.slice(0, i));
 
