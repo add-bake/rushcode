@@ -9,7 +9,7 @@ let splitIntoFibonacci = (S) => {
   let isLegalNumber = (num, len) => {
     return String(num).length === len && num < 2 ** 31;
   }
-  let dfs = (num, seq) => {
+  let backtracking = (num, seq) => {
     let iLen = 1;
     let kLen = 1;
 
@@ -31,7 +31,7 @@ let splitIntoFibonacci = (S) => {
           return [a, b];
         }
 
-        const tail = dfs(a, seq.slice(iLen, len));
+        const tail = backtracking(a, seq.slice(iLen, len));
 
         if (tail.length) {
           return [a].concat(tail);
@@ -55,7 +55,7 @@ let splitIntoFibonacci = (S) => {
     const num = Number(S.slice(0, i));
     if (!isLegalNumber(num, i)) break;
 
-    ans = dfs(num, S.slice(i, S.length));
+    ans = backtracking(num, S.slice(i, S.length));
     if (ans.length) {
       ans.unshift(num);
       return ans;
