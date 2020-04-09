@@ -2,13 +2,13 @@
 
 ## 本周题目
 
-842. 将数组拆分成斐波那契序列 - Split Array into Fibonacci Sequence
+135. 分发糖果
 
 ## 怎样贡献代码
 
 上传解题方案到对应语言的路径下。 例如：**题目/js-solutions/** or **题目/java-solutions/**
 
-文件命名格式为 **ans-by-名字.文件类型后缀**。 例如： **Ans_by_Oven.js** or **Ans_by_Alex.java**
+文件命名格式为 **ans_by_名字.文件类型后缀**。 例如： **Ans_by_Oven.js** or **Ans_by_Alex.java**
 
 ## 项目介绍
 
