@@ -12,7 +12,7 @@
 
 ## 项目介绍
 
-rushcode 是一个算法练习册集合，每道题包含多种编程语言解决方案。 
+rushcode 是一个算法练习册集合，每道题包含多种编程语言解决方案。
 
 目前所有题目均来自 [leetcode](https://leetcode-cn.com/)。
 
