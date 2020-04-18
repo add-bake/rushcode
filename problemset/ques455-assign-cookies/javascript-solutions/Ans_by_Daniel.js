@@ -1,5 +1,5 @@
 /**
- * author: 欧文
+ * author: Daniel
  * date: 2020-04-18
  * @param {number[]} g 孩子胃口
  * @param {number[]} s 饼干尺寸
